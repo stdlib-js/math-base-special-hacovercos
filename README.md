@@ -30,10 +30,14 @@ The half-value [coversed cosine][coversed-cosine] is defined as
 
 <!-- <equation class="equation" label="eq:hacovercosine" align="center" raw="\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}" alt="Half-value coversed cosine."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}" data-equation="eq:hacovercosine">
+```math
+\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}" data-equation="eq:hacovercosine">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bb29798906e119fcb2af99e94b60407a270c9b32/lib/node_modules/@stdlib/math/base/special/hacovercos/docs/img/equation_hacovercosine.svg" alt="Half-value coversed cosine.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -117,8 +121,8 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/hacoversin`][@stdlib/math/base/special/hacoversin]</span><span class="delimiter">: </span><span class="description">compute the half-value coversed sine.</span>
--   <span class="package-name">[`@stdlib/math/base/special/havercos`][@stdlib/math/base/special/havercos]</span><span class="delimiter">: </span><span class="description">compute the half-value versed cosine.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/hacoversin`][@stdlib/math/base/special/hacoversin]</span><span class="delimiter">: </span><span class="description">compute the half-value coversed sine.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/havercos`][@stdlib/math/base/special/havercos]</span><span class="delimiter">: </span><span class="description">compute the half-value versed cosine.</span>
 
 </section>
 
@@ -177,7 +181,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
