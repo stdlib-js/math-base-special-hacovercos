@@ -31,7 +31,7 @@ The half-value [coversed cosine][coversed-cosine] is defined as
 <!-- <equation class="equation" label="eq:hacovercosine" align="center" raw="\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}" alt="Half-value coversed cosine."> -->
 
 ```math
-\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}
+\mathop{\mathrm{hacovercos}}(\theta) = \frac{1 + \sin \theta}{2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{hacovercos}(\theta) = \frac{1 + \sin \theta}{2}" data-equation="eq:hacovercosine">
@@ -45,38 +45,30 @@ The half-value [coversed cosine][coversed-cosine] is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-hacovercos
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-hacovercos = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var hacovercos = require( 'path/to/vendor/umd/math-base-special-hacovercos/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.hacovercos;
-})();
-</script>
+var hacovercos = require( '@stdlib/math-base-special-hacovercos' );
 ```
 
 #### hacovercos( x )
@@ -104,15 +96,10 @@ v = hacovercos( -3.141592653589793/6.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var TWO_PI = require( '@stdlib/constants-float64-two-pi' );
+var hacovercos = require( '@stdlib/math-base-special-hacovercos' );
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
@@ -120,11 +107,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( hacovercos( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -219,9 +201,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin/tree/umd
+[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin
 
-[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos/tree/umd
+[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos
 
 <!-- </related-links> -->
 
