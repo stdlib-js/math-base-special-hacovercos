@@ -63,7 +63,7 @@ The half-value [coversed cosine][coversed-cosine] is defined as
 ## Usage
 
 ```javascript
-import hacovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@deno/mod.js';
+import hacovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@v0.3.1-deno/mod.js';
 ```
 
 #### hacovercos( x )
@@ -95,7 +95,7 @@ v = hacovercos( -3.141592653589793/6.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@deno/mod.js';
-import hacovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@deno/mod.js';
+import hacovercos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacovercos@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
